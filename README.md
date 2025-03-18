@@ -20,14 +20,14 @@ The weather data is retrieved using the **Open-Meteo API**, which provides histo
 ## Visualizations
 
 ### 1. Grouped Bar Chart - Monthly Average Temperature Comparison
-!(Group-bar-chart.png)
+![Grouped Bar Chart](Group-bar-chart.png)
 This chart allows us to observe:
 
 - **New York has colder winters compared to the other cities.**
 - **Tokyo, while having a similar climate to Berlin, experiences hotter summers.**
 
 ### 2. Scatter Plot - Temperature vs. Total Precipitation
-!(scatterplot.png)
+![Scatter Plot](scatterplot.png)
 Key observations:
 
 - **Tokyo receives the most rainfall among the three cities.**
