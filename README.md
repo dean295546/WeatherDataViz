@@ -62,7 +62,7 @@ install.packages(c("httr", "jsonlite", "dplyr", "lubridate", "ggplot2"))
 1. Clone this repository:
    ```sh
    git clone https://github.com/dean295546/WeatherDataViz.git
-   cd weather-viz-r
+   cd WeatherDataViz
    ```
 2. Open the R script and run it in **RStudio** or another R environment.
 3. The script will fetch the data and generate the visualizations.
