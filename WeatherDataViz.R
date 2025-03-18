@@ -93,7 +93,7 @@ Berlin_data <- Berlin_data %>%
 
 # Plot temperature trend over time for Berlin
 ggplot(Berlin_data, aes(x = YearMonth, y = Avg_Temperature, group = 1)) +
-  geom_line(color = "blue", size = 1) +  # Blue line for temperature trend
+  geom_line(color = "pink", size = 1) +  # Blue line for temperature trend
   geom_smooth(method = "lm", color = "red", linetype = "dashed", size = 1) +  # Trend line
   labs(title = "Temperature Changes Over Time (Berlin)",
        x = "Year-Month",
@@ -107,7 +107,7 @@ Tokyo_data <- Tokyo_data %>%
 
 # Plot temperature trend over time for Berlin
 ggplot(Tokyo_data, aes(x = YearMonth, y = Avg_Temperature, group = 1)) +
-  geom_line(color = "green", size = 1) +  # Blue line for temperature trend
+  geom_line(color = "blue", size = 1) +  # Blue line for temperature trend
   geom_smooth(method = "lm", color = "red", linetype = "dashed", size = 1) +  # Trend line
   labs(title = "Temperature Changes Over Time (Tokyo)",
        x = "Year-Month",
@@ -121,7 +121,7 @@ NY_data <- NY_data %>%
 
 # Plot temperature trend over time for Berlin
 ggplot(NY_data, aes(x = YearMonth, y = Avg_Temperature, group = 1)) +
-  geom_line(color = "grey", size = 1) +  # Blue line for temperature trend
+  geom_line(color = "green", size = 1) +  # Blue line for temperature trend
   geom_smooth(method = "lm", color = "red", linetype = "dashed", size = 1) +  # Trend line
   labs(title = "Temperature Changes Over Time (New York)",
        x = "Year-Month",
